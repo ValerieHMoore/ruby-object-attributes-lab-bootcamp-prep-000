@@ -7,3 +7,13 @@ def name
   @this_dogs_name
   end
 end
+
+class Breed
+def name=(dogs_breed)
+  @this_dogs_breed = dogs_breed
+end
+
+def breed
+  @this_dogs_breed
+  end
+end
