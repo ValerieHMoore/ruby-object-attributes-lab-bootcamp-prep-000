@@ -13,3 +13,4 @@ def name
   end
 end
 
+initialize(name)
