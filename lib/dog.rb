@@ -8,11 +8,10 @@ def name
   end
 end
 	 
-Fido = Dog.new
-13.	lassie.name = "Lassie"
-14.	 
-15.	puts lassie.name
-16.	 
+fido = Dog.new
+  fido.name = "Fido"
+
+puts fido.name
 
 class Breed
 def name=(dogs_breed)
