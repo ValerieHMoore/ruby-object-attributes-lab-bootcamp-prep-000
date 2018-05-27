@@ -10,7 +10,6 @@ end
 	 
 fido = Dog.new
   fido.name = "Fido"
-
 puts fido.name
 
 class Breed
@@ -22,3 +21,7 @@ def breed
   @this_dogs_breed
   end
 end
+
+beagle = Breed.new
+  beagle.breed = "Beagle"
+  puts beagle.breed
