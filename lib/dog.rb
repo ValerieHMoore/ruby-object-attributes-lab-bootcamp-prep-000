@@ -7,6 +7,12 @@ def name
   @this_dogs_name
   end
 end
+	 
+Fido = Dog.new
+13.	lassie.name = "Lassie"
+14.	 
+15.	puts lassie.name
+16.	 
 
 class Breed
 def name=(dogs_breed)
